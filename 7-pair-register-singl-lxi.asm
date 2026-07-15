@@ -7,6 +7,7 @@ ldax d
 mov b,a
 
 inx d
+ldax d
 
 sta 0000H
 mov a,b

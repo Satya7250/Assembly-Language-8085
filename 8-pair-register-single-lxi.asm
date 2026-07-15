@@ -1,15 +1,14 @@
 
-;<de register pair with single lxi>
+;<hl register pair with single lxi>
 
 lxi h,0000H
-mov a,m
-
-mov b,a
+mov d,m
 
 inx h
+mov a,m
 
 sta 0000H
-mov a,b
+mov a,d
 
 sta 0001H
 
